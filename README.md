@@ -17,6 +17,15 @@ If you have a modern version of node up and running (v8+) there is nothing to in
 npx local-bin
 ```
 
+Example:
+
+```ssh
+$ npx local-bin
+Fake server listening on port 3000
+Public URL: https://c13730eb.ngrok.io
+Inspector: http://localhost:4040
+```
+
 This command will have npm to download to cache and run  `local-bin` and start it for you.
 
 By default `local-bin` will listen on port 3000 and you will send all your request to this port. Custom port will be added soon. It will also automatically start ngrok, start listening on the same port and provide you with a random public URL. 

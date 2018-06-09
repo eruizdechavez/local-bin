@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 const express = require('express');
 const ngrok = require('ngrok');
 const app = express();

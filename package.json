@@ -3,7 +3,14 @@
   "version": "1.0.0",
   "description": "A local fake server that captures http requests and leverages ngrok to show a nice inspector",
   "main": "index.js",
+  "bin": {
+    "local-bin": "./index.js"
+  },
   "author": "Erick Ruiz de Chavez <erick@erch.co>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eruizdechavez/local-bin"
+  },
   "license": "MIT",
   "dependencies": {
     "express": "4.16.3",

@@ -9,7 +9,7 @@ app.use(function(req, res) {
 
 app.listen(3000, async () => {
   const url = await ngrok.connect(3000);
-  console.log('Example app listening on port 3000!');
-  console.log(`URL: ${url}`);
+  console.log('Fake server listening on port 3000');
+  console.log(`Public URL: ${url}`);
   console.log('Inspector: http://localhost:4040');
 });
